@@ -6,15 +6,15 @@
 network:
     version: 2
     ethernets:
-        eth0:
+        ens3:
             dhcp4: true
             match:
                 macaddress: 02:d9:3e:bb:66:3c
             set-name: eth0
-        eth1:
+        ens4:
             dhcp4: false
             addresses: [10.0.2.10/24]
 
-        eth2:
+        ens5:
             dhcp4: false
             addresses: [10.0.1.10/24]
